@@ -10,34 +10,35 @@ article {
 }
 article p {
   text-align: center;
-  font-family: 'PT Sans Caption',sans-serif;
+  font-family: 'Roboto',sans-serif;
 }
 article h1 {
   text-align: center;
-  font-family: 'PT Sans Caption',sans-serif;
+  font-family: 'Roboto',sans-serif;
 }
 
 body {
   padding: 64px 0;
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-background-size: 500% 500%;
+  background: linear-gradient(90deg, #952651, #952651, #26a6d5, #26d5ab);
+background-size: 400% 500%;
 animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
 	0% {
-		background-position: 0% 50%;
+		background-position: 50% 50%;
 	}
 	50% {
 		background-position: 100% 50%;
 	}
 	100% {
-		background-position: 0% 50%;
+		background-position: 50% 50%;
 	}
 }
 
 .face-button {
+  width: 180px;
   height: 64px;
   display: inline-block;
   border: 3px solid #e43;
@@ -59,7 +60,7 @@ animation: gradient 15s ease infinite;
   line-height: 64px;
   transition: margin .4s;
 }
-.face-button .face-primary {
+.face-button .face-primary, .face-secondary {
   background-color: #e43;
   color: #fff;
 }
